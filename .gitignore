@@ -1,0 +1,27 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any generated files
+dist/
+build/
+coverage/
+
+# Environment variables file (if used)
+.env
+
+# IDE or editor specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# macOS specific files
+.DS_Store
+
+# Ignore any secrets or sensitive information
+secrets.json
